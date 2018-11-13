@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "install": "cd client && npm install && npm run build && cd .." 
+    "install": "cd ratatambot3 && npm install && npm run build && cd .." 
   },
   "repository": {
     "type": "git",
