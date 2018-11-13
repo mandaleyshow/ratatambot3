@@ -3,7 +3,7 @@ module.exports = (req, res) => {
 
 const hubMode = req.query['hub.mode'];
  const verifyTokenMatches = (req.query['hub.verify_token'] === 
-‘redhead’);
+'redhead');
 
 if (hubMode && verifyTokenMatches) {
  res.status(200).send(hubChallenge);
