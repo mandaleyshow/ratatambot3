@@ -2,6 +2,9 @@
   "name": "ratatambot3",
   "version": "1.0.0",
   "description": "The bot for electronic music lovers",
+  "engines": {
+    "node": "8.9.4"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
