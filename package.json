@@ -4,7 +4,8 @@
   "description": "The bot for electronic music lovers",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "install": "cd client && npm install && npm run build && cd .." 
   },
   "repository": {
     "type": "git",
